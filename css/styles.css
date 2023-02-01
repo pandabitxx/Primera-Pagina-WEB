@@ -1,0 +1,109 @@
+.text-nav {
+  color: #243763 !important;
+}
+.btn-b1 {
+  background-color: #243763 !important;
+  color: white !important;
+}
+.btn-b1:hover{
+  background-color: rgb(8 88 139) !important;
+}
+.bg-1 {
+  background-color: #FF6E31
+}
+#header img {
+  width: 50px;
+}
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+#main .carousel-inner img{
+  max-height: 95vh;
+  object-fit: cover;
+}
+#carousel {
+  position: relative;
+}
+#carousel .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+#carousel .overlay .container,
+#carousel .overlay .row{
+  height: 100%;
+}
+#speakers img {
+  height: 200px;
+  object-fit: cover;
+}
+#place-time {
+  color: rgb(0, 0, 0);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+}
+#place-time img {
+  max-width: 100%;
+  border-radius: 10%;
+}
+/* Inicio Nosotros */
+#nosotros img {
+  max-width: 100%;
+  border-radius: 5%;
+}
+#place-time-valores {
+  color: rgb(0, 0, 0);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+}
+#place-time-valores img{
+  max-width: 100%;
+  border-radius: 10%;
+}
+#carousel-nosotros {
+  position: relative;
+}
+#carousel-nosotros .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+#carousel-nosotros .overlay .container,
+#carousel-nosotros .overlay .row{
+  height: 100%;
+}
+#nosotros .box-1{
+  background-color: #3757a1 ;
+  color: white;
+}
+#nosotros .box-2{
+  border: #3757a1 solid;
+  color: black;
+}
+
+
+#footer {
+  background-color: #89C4E1;;/*Color del fondo del pie de pagina*/
+  color: #fff; /*Es el color de la letra del pie de pagina*/
+  padding: 1em; /*Es el grosor de la barra gris del pie de pagina*/
+  text-align: center; /*Centra el texto del pie de pagina*/
+}
+#footer a {
+  color: black;
+}
+
+
+
