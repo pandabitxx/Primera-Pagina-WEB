@@ -1,0 +1,181 @@
+//Aplicando extend
+@import 'global/base';
+@import 'components/buttons';
+@import 'variables/variables';
+
+#header {
+	@extend .contenedor_header;
+	.container {
+		border: #579BB1 solid;
+	}
+	.text-nav {
+		color: #243763;
+	}
+	img {
+		width: 50px;
+	}
+}
+#main {
+	@include all-buttons;
+	.carousel-inner {
+		img {
+			max-height: 95vh;
+			object-fit: cover;
+		}
+	}
+}
+
+.bg-1 {
+	background-color: #FF6E31;
+}
+#particles-js {
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+#carousel {
+	position: relative;
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(0, 0, 0, 0.3);
+		color: white;
+		.container {
+			height: 100%;
+		}
+		.row {
+			height: 100%;
+		}
+	}
+}
+#speakers {
+	.f1 {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	img {
+		height: 200px;
+		object-fit: cover;
+	}
+}
+
+#place-time {
+	@extend .contenedor;
+	img {
+		max-width: 100%;
+		border-radius: 10%;
+	}
+	@include all-buttons;
+}
+#nosotros {
+	img {
+		max-width: 100%;
+		border-radius: 5%;
+	}
+	.box {
+		background-color: map-get($map: $palette, $key:'fondos' );
+		color: white;
+	}
+
+}
+#place-time-valores {
+	color: rgb(0, 0, 0);
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 3rem;
+	img {
+		max-width: 100%;
+		border-radius: 10%;
+	}
+}
+#carousel-nosotros {
+	position: relative;
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(0, 0, 0, 0.3);
+		color: white;
+		.container {
+			height: 100%;
+		}
+		.row {
+			height: 100%;
+		}
+	}
+}
+#myCarousel {
+	margin-bottom: 4rem;
+	.carousel-inner {
+		.carousel-item {
+			height: 32rem;
+		}
+	}
+}
+.marketing {
+	.col-lg-4 {
+		margin-bottom: 1.5rem;
+		text-align: center;
+		p {
+			margin-right: 0.75rem;
+			margin-left: 0.75rem;
+		}
+	}
+}
+.featurette-divider {
+	margin: 5rem 0;
+}
+.featurette-heading {
+	letter-spacing: -0.05rem;
+}
+#footer {
+	background-color: map-get($map: $palette, $key:'footer');
+	color: white;
+	padding: 1em;
+	text-align: center;
+	a {
+		color: black;
+	}
+}
+@media (min-width: 40em) {
+	.carousel-caption {
+		p {
+			margin-bottom: 1.25rem;
+			font-size: 1.25rem;
+			line-height: 1.4;
+		}
+	}
+	.featurette-heading {
+		font-size: 50px;
+	}
+}
+@media (min-width: 62em) {
+	.featurette-heading {
+		margin-top: 7rem;
+	}
+}
+  
+ /* Page Contacto */
+ 
+ #contact1 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+
+  .contact{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: map-get($map: $palette, $key:'fondos' );
+   }
+}
+

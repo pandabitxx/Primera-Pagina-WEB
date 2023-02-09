@@ -1,0 +1,10 @@
+//Mixin
+@mixin all-buttons{
+    .btn-b1{
+        background-color: map-get($map: $palette, $key:'button');
+		color: white;
+		&:hover {
+			background-color: map-get($map: $palette, $key:'hover');
+		}
+    }
+}
