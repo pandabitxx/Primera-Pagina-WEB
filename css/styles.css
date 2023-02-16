@@ -16,40 +16,40 @@
 }
 
 .titulo-h1-c, #myCarousel .fuente .h1, #main .fuente .h1-c {
-  font-family: "Itim", cursive;
-  font-size: 34spx;
+  font-family: "Quicksand", sans-serif;
+  font-size: 34px;
   font-weight: 500;
   color: white;
 }
 
 .titulo-p-c, #footer .fuente .p-c, #myCarousel .fuente .p, #main .fuente .p-c {
-  font-family: "Itim", cursive;
+  font-family: "Quicksand", sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: white;
 }
 
 .titulo-h1, #redes .fuente .h1, #cartas-refugios .fuente .h1, #contacto-formulario .fuente .h1, #contacto-texto .fuente .h1, #noticias .fuente .h1, #equipo .fuente .h1, #place-time-valores-etica .fuente .h1, #nosotros .fuente .h1, #speakers .fuente .h1 {
-  font-family: "Itim", cursive;
+  font-family: "Quicksand", sans-serif;
   font-size: 45px;
   font-weight: 500;
   color: rgb(8, 88, 139);
 }
 
 .titulo-h2, #redes .fuente .h2, #img-grid .fuente, #contacto-texto .fuente .h2, #noticias .fuente .h2, #myCarousel .fuente .h2, #equipo .fuente .h2, #place-time-valores-etica .fuente .h2, #nosotros .fuente .h2, #place-time .fuente .h2, #speakers .fuente .h2 {
-  font-family: "Itim", cursive;
+  font-family: "Quicksand", sans-serif;
   font-size: 37px;
   color: rgb(61, 117, 151);
 }
 
 .titulo-p, #redes .fuente .p, #textoDespuesFormulario .fuente .p, #contacto-formulario .fuente .p, #contacto-texto .fuente .p, #noticias .fuente .p, #equipo .fuente .p, #place-time-valores-etica .fuente .p, #nosotros .fuente .p, #place-time .fuente .p, #speakers .fuente .small, #speakers .fuente .p {
-  font-family: "Itim", cursive;
+  font-family: "Quicksand", sans-serif;
   font-size: 20px;
   color: rgb(56, 56, 56);
 }
 
 .titulo-h3-h4, #textoDespuesFormulario .fuente .h3-h4, #contacto-texto .fuente .h3-h4 {
-  font-family: "Itim", cursive;
+  font-family: "Quicksand", sans-serif;
   font-size: 30px;
   color: rgb(8, 88, 139);
 }
@@ -61,7 +61,7 @@
 }
 
 .titulo-h5, #speakers .fuente .h5 {
-  font-family: "Itim", cursive;
+  font-family: "Quicksand", sans-serif;
   font-size: 30px;
   color: rgb(61, 117, 151);
 }

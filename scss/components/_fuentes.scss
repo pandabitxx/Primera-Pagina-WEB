@@ -3,36 +3,36 @@
     font-size: 20px;
 }
 .titulo-h1-c {
-    font-family: 'Itim', cursive;
-    font-size: 34spx ;
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 34px ;
     font-weight: 500;
     color: map-get($map: $palette, $key:'h1-c')
 }
 .titulo-p-c {
-    font-family: 'Itim', cursive;
+    font-family: 'Quicksand', sans-serif; 
     font-size: 16px ;
     font-weight: 500;
     color: map-get($map: $palette, $key:'p-c')
 }
 .titulo-h1 {
-    font-family: 'Itim', cursive;
+    font-family: 'Quicksand', sans-serif; 
     font-size: 45px ;
     font-weight: 500;
     color: map-get($map: $palette, $key:'h1')
 }
 .titulo-h2 {
-    font-family: 'Itim', cursive; 
+    font-family: 'Quicksand', sans-serif; 
     font-size: 37px;
     color: map-get($map: $palette, $key:'h2')
 }
 .titulo-p {
-    font-family: 'Itim', cursive;
+    font-family: 'Quicksand', sans-serif; 
     //font-family: 'Raleway', sans-serif; 
     font-size: 20px;
     color: map-get($map: $palette, $key:'p')
 }
 .titulo-h3-h4 {
-    font-family: 'Itim', cursive; 
+    font-family: 'Quicksand', sans-serif; 
     font-size: 30px;
     color: map-get($map: $palette, $key:'h3-h4')
 }
@@ -41,7 +41,7 @@
     font-size: 15px;
     color: map-get($map: $palette, $key:'span')
 }.titulo-h5 {
-    font-family: 'Itim', cursive; 
+    font-family: 'Quicksand', sans-serif; 
     font-size: 30px;
     color: map-get($map: $palette, $key:'h2')
 }
