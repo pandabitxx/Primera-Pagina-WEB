@@ -91,7 +91,7 @@
   background-color: #243763;
 }
 #main .carousel-inner img {
-  max-height: 5vh;
+  max-height: 95vh;
   object-fit: cover;
 }
 .bg-1 {
